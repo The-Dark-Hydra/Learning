@@ -11,7 +11,7 @@ public class dowhyle {
         int n = scan.nextInt();
 
         do{
-            System.out.println("i");
+            System.out.println(i);
             i++;
 
         }while(i<n);
