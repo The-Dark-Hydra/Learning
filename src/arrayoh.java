@@ -25,7 +25,12 @@ public class arrayoh {
 
         for (j = len - 1; j < len + 1; --j) {
             System.out.println(a[j]);
-
+            // now that ive able to understand how to use j index from back i have to understand how to break the code hits negative numbs
+            if(j==0){
+                break;
+            }
+            //so we can simply use if to check if j is 0 then break the loop i was trying to do this but somehow it didnt work then i tried while
+           // which ofc wouldnt work
         }
 
         for (i = 0; i < len; i++) {
